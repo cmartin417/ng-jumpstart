@@ -1,0 +1,23 @@
+{
+  "name": "ng-jumpstart",
+  "version": "0.0.1",
+  "author": "Clint Martin <cmartin0417@gmail.com>",
+  "description": "boilerplate code for node projects using angular, bootstrap, and grunt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmartin417/ng-jumpstart.git"
+  },
+  "keywords": [
+    "node",
+    "angular",
+    "grunt",
+    "boilerplate"
+  ],
+  "dependencies": {
+    "express": "~3.4.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "license": "MIT"
+}
