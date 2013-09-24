@@ -23,6 +23,9 @@ if (app.get('env') === 'production') {
   // TODO
 }
 
+// main routes
+app.get('/views/:name', routes.views);
+
 // api routes
 app.get('/api/name', api.name);
 

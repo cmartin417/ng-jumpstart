@@ -1,17 +1,32 @@
 <!doctype html>
-<html lang="en" ng-app="myApp" ng-controller="AppCtrl">
+<html lang="en" ng-app="myApp">
 <head>
 	<meta charset="UTF-8">
 	<title>NG-Jumpstart</title>
 
 	<script type="text/javascript" src="vendor/angular/angular.js"></script>
 	<script type="text/javascript" src="js/app/app.js"></script>
-	<script type="text/javascript" src="js/app/controllers.js"></script>
-	<script type="text/javascript" src="js/app/directives.js"></script>
-	<script type="text/javascript" src="js/app/filters.js"></script>
 	<script type="text/javascript" src="js/app/services.js"></script>
+	<script type="text/javascript" src="js/app/controllers.js"></script>
+	<script type="text/javascript" src="js/app/filters.js"></script>
+	<script type="text/javascript" src="js/app/directives.js"></script>
 </head>
 <body>
+
+	<div ng-controller="AppCtrl">
+		<h1>NG Jumpstart</h1>
+		<nav>
+			<ul>
+				<li><a href="home">Home</a></li>
+				<li><a href="view1">View 1</a></li>
+				<li><a href="view2">View 2</a></li>
+			</ul>
+		</nav>
+
+		<div ng-view>
+			
+		</div>
+	</div>
 	
 </body>
 </html>
